@@ -1,0 +1,28 @@
+Para iniciar sesion  (importante que sea la misma que tu cuenta de git hub)
+  -git config --global.user.name "nombre cuenta"
+  -git config --global user.email [correo cuenta]
+  -git config --list
+
+Crear
+  -git clone 'Url' (con esto bajas el programa desde github a una carpeta)
+  -git init (Creas la carpeta de git en la cual podras subir archivos hasta github)
+
+Verificar
+  -git status
+  -git log
+  -git diff
+  -git branch
+Agregar un archivo (Es para darle commit y poder subirlo)
+  -git add . (con el punto puedes agregar todos los nuevos archivos)
+
+Agregar commit
+  -git commit -m "Un bonito mensaje" (es necesario agregarlo primero)
+Subir archivo a github
+  -git push (para esto es necesario que ya tenga commit)
+Bajar o actualizar
+  -git pull
+Cambiar
+  -git checkout -b [Nombre del branch]
+  -git merge
+  -git switch
+  -git restore --source [hash][archivo]
